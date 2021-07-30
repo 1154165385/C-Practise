@@ -1,0 +1,4 @@
+﻿  源.c
+C:\Users\Yumei\source\repos\猜数字\猜数字\源.c(51,13): warning C4047: “函数”:“unsigned int”与“time_t (__cdecl *)(time_t *const )”的间接级别不同
+C:\Users\Yumei\source\repos\猜数字\猜数字\源.c(51,9): warning C4024: “srand”: 形参和实参 1 的类型不同
+  猜数字.vcxproj -> C:\Users\Yumei\source\repos\猜数字\Debug\猜数字.exe
