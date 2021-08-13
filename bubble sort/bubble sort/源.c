@@ -3,9 +3,10 @@
 
 void bubble_sort(int arr[],int x)
 {
-	int a, b, d;
+	int a, b, d, e;
 	for (a = 0; a <x-1; a++)
 	{
+		e = 1;
 		for (b = 0; b < x-1-a; b++)
 		{
 			if (arr[b] > arr[b + 1])
@@ -13,8 +14,11 @@ void bubble_sort(int arr[],int x)
 				d = arr[b+ 1];
 				arr[b + 1] = arr[b];
 				arr[b] = d;
+				e = 0;
 			};;
 		};
+		if (e == 1)
+			break;
 	};
 
 }
